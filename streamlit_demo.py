@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit as st
 
 
-df = pd.read_excel("transformed_PH_Distribution.xlsx")
 df2 = pd.read_excel("CanesPHRevenue.xlsx")
 discounts = pd.read_excel("CanesDiscounts.xlsx")
 cluster = pd.read_csv("PlansSold.csv")
