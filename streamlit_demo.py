@@ -2,6 +2,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+! conda install openyxl
+
 #removed dataframes that were not needed
 df2 = pd.read_excel("CanesPHRevenue.xlsx")
 discounts = pd.read_excel("CanesDiscounts.xlsx")
